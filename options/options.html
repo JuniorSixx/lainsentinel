@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Configurações Lain Sentinel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="options.css" />
+  <link id="themeStylesheet" rel="stylesheet" href="../themes/theme-lain.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⚙️ Lain Sentinel</h1>
+
+    <section>
+      <h2>🛡️ Whitelist</h2>
+      <textarea id="whitelist" rows="6" placeholder="site1.com&#10;site2.org" aria-label="Domínios da whitelist"></textarea>
+      <button id="saveWhitelist" type="button">💾 Salvar Whitelist</button>
+    </section>
+
+    <section>
+      <h2>📜 Logs</h2>
+      <textarea id="logs" rows="6" readonly aria-label="Logs de bloqueios"></textarea>
+      <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+        <button id="clearLogs" type="button">🧹 Limpar Logs</button>
+        <button id="exportLogs" type="button">⬇️ Exportar TXT</button>
+        <button id="exportJson" type="button">⬇️ Exportar JSON</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>🧠 Modo Hardcore</h2>
+      <label><input type="checkbox" id="hardcoreMode"> Ativar Modo Hardcore</label>
+      <button id="saveMode" type="button">💾 Salvar Modo</button>
+    </section>
+
+    <section>
+      <h2>🎨 Tema Visual</h2>
+      <select id="themeSelector" aria-label="Selecionar tema visual">
+        <option value="lain">🧠 Lain</option>
+        <option value="holo">🌐 Holográfico</option>
+        <option value="matrix">🧬 Matrix</option>
+        <option value="noir">🌑 Noir</option>
+      </select>
+    </section>
+
+    <section>
+      <h2>📊 Estatísticas</h2>
+      <div id="statsSummary">Carregando...</div>
+    </section>
+
+    <a href="../popup/popup.html" class="back">🔙 Voltar</a>
+  </div>
+
+  <script src="themeLoader.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lain Sentinel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link id="themeStylesheet" rel="stylesheet" href="../themes/theme-lain.css" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="../icons/icon48.png" alt="Ícone da Lain" class="icon" />
+
+    <h1>Lain Sentinel</h1>
+
+    <div id="heuristicAlert" class="alert"></div>
+
+    <div class="status">
+      <p>Status da Proteção: <span id="statusText">Carregando...</span></p>
+      <p>Modo Atual: <span id="modeText">Carregando...</span></p>
+    </div>
+
+    <div class="buttons">
+      <button id="toggleProtection">🛡️ Alternar Proteção</button>
+      <button id="toggleMode">⚠️ Alternar Modo Hardcore</button>
+    </div>
+
+    <a id="openOptions" class="link">⚙️ Configurações Avançadas</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

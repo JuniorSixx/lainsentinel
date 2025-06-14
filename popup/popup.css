@@ -1,0 +1,107 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #0a0a0a;
+  color: #33ffcc;
+  margin: 0;
+  padding: 10px;
+  width: 320px;
+  height: auto;
+  box-sizing: border-box;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.3em;
+  margin: 6px 0 10px 0;
+  text-shadow: 0 0 6px #0ff;
+}
+
+.status p {
+  margin: 4px 0;
+  font-size: 0.9em;
+}
+
+#statusText {
+  font-weight: bold;
+  color: #0f0;
+  text-shadow: 0 0 3px #0f0;
+}
+
+#modeText {
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+button {
+  background-color: #111;
+  color: #0f0;
+  border: 1px solid #0f0;
+  padding: 8px 12px;
+  margin: 6px auto;
+  font-family: inherit;
+  cursor: pointer;
+  min-width: 220px;
+  max-width: 240px;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  transition: all 0.3s ease;
+  font-size: 0.9em;
+}
+
+button:hover {
+  background-color: #0f0;
+  color: #000;
+}
+
+a.link, a.back {
+  color: #8af;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+a.link:hover, a.back:hover {
+  color: #fff;
+}
+
+.alert, #heuristicAlert {
+  display: none;
+  background: #331111;
+  color: #f55;
+  padding: 6px;
+  border: 1px solid #f33;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 90%;
+  max-width: 220px;
+  box-shadow: 0 0 6px #f33;
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 0.85em;
+}

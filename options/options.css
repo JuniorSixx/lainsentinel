@@ -1,0 +1,99 @@
+ody {
+  font-family: "Courier New", monospace;
+  background-color: #0a0a0a;
+  color: #33ffcc;
+  margin: 0;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0 0 4px #33ffcc;
+}
+
+h2 {
+  margin-top: 24px;
+  color: #8af;
+  text-shadow: 0 0 2px #8af;
+  font-size: 1.2em;
+}
+
+textarea {
+  width: 100%;
+  background: #111;
+  color: #0f0;
+  border: 1px solid #0f0;
+  font-family: inherit;
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+button, select {
+  background-color: #111;
+  color: #0f0;
+  border: 1px solid #0f0;
+  padding: 8px 12px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 4px;
+}
+
+button:hover, select:hover {
+  background-color: #0f0;
+  color: #000;
+  border-color: #0f0;
+}
+
+select {
+  appearance: none;
+  text-align: center;
+}
+
+canvas {
+  background: #000;
+  border: 1px solid #333;
+  margin-top: 8px;
+  width: 100%;
+  max-width: 100%;
+}
+
+a.back {
+  margin-top: 24px;
+  color: #8af;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+a.back:hover {
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+  color: #66ffdd;
+  font-size: 0.95em;
+}
+
+section {
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #222;
+}

@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(to right, #121212, #1f1f2f);
+  color: #80d0ff;
+}
+
+h1, h2 {
+  color: #80d0ff;
+  text-shadow: 0 0 3px #80d0ff;
+}
+
+button {
+  background: #202040;
+  color: #80d0ff;
+  border: 1px solid #80d0ff;
+}
+
+button:hover {
+  background: #80d0ff;
+  color: #000;
+}
+
+textarea, select {
+  background: #101020;
+  color: #80d0ff;
+  border: 1px solid #80d0ff;
+}

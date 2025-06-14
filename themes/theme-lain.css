@@ -1,0 +1,26 @@
+body {
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+}
+
+h1, h2 {
+  color: #ff66cc;
+  text-shadow: 0 0 2px #cc00cc;
+}
+
+button {
+  background: #1c1c1c;
+  color: #cc00cc;
+  border: 1px solid #cc00cc;
+}
+
+button:hover {
+  background: #cc00cc;
+  color: #000;
+}
+
+textarea, select {
+  background-color: #1b1b1b;
+  color: #fff;
+  border: 1px solid #cc00cc;
+}
